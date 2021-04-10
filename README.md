@@ -4,6 +4,7 @@ Esse repositório é uma réplica do repositório GazeCom, com resultados da cla
 
 Cada* pasta representa um vídeo do GazeCom. Dentro delas há:
   - Um arquivo com dados do rastreamento por usuário para o vídeo em formato arff.
+  - Um arquivo '0valid_videos.txt' indicando quais arquivos contém todas as classes de movimento nos primeiros 15s
   - Uma pasta correspondendo a cada arquivo mas identificada por um número. Dentro há:
     - journal.txt: é basicamente o arquivo correspondente em formato txt
     - reviewd.csv: ground truth
